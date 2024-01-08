@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  margin: 0;
+}
+.brand-logo {
+  font-weight: 800;
+  font-size: 28px;
+}
+
+#banner-carousel {
+  height: 40vh !important;
+}
+
+.category-card {
+  width: 6em;
+}
+
+.carousel-item img {
+  height: 40vh;
+  object-fit: cover !important;
+}
+
+.color-primary {
+  color: #004aad !important;
+}
+
+.bg-color-primary {
+  background-color: #004aad !important;
+}
+
+.title-card-left {
+  flex: 1 1 auto;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  overflow: hidden;
+  font-size: 1.42857rem;
+  letter-spacing: -0.1px;
+  line-height: 26px;
+}
+
+.product-card > img {
+  height: 200px !important;
+  object-fit: cover;
+}
+
+.link-clean {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.img-patners {
+  width: 80px !important;
+  height: 40px !important;
+  object-fit: fill !important;
+}
+
+.img-produk-detail {
+  height: 60vh !important;
+  object-fit: cover !important;
+}
